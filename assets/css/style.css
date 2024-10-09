@@ -1,0 +1,22 @@
+.d-flex img {
+    height: 100%;
+    width: auto;
+}
+
+textarea {
+    resize: none;
+  }
+
+:root {
+    --bs-success-bg-subtle: #E2EED8;
+    --bs-danger-bg-subtle: #EFDFDF;
+    --bs-success-rgb: 92, 184, 92;
+    --bs-danger-rgb: 217, 83, 79;
+    --bs-primary-rgb: 28, 124, 213;
+    --bs-secondary-rgb: 85, 89, 92;
+}
+
+.btn-primary {
+    --bs-btn-bg: #1C7CD5;
+    --bs-btn-border-color: #1C7CD5;
+}
