@@ -20,3 +20,44 @@ textarea {
     --bs-btn-bg: #1C7CD5;
     --bs-btn-border-color: #1C7CD5;
 }
+
+@media (min-width: 768px) {
+    .container.bg-secondary p {
+        padding: 1rem !important;
+    }
+
+    .text p {
+        margin-bottom: 1rem !important;
+    }
+
+    section.email h2, section.reviews h2, section.films > .container > h2.pt-4.pb-3.display-5.fw-semibold {
+        font-size: 2.7rem !important;
+    }
+
+    section.email > .container > .col-lg-6.pb-5 {
+    padding-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
+    }
+
+    section.email > .container > .col-lg-6.pb-5 > form > .mb-2 {
+        margin-bottom: 1rem !important;
+    }
+    
+    section.email > .container > .col-lg-6.pb-5 > form > .mb-5.form-check {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    section.films > .card h2 {
+        padding: 0 !important;
+    }
+
+    .carousel-inner p {
+        margin-bottom: 1rem !important;
+    }
+
+    .carousel-inner h1 {
+        margin-bottom: 1rem !important;
+    }
+}
