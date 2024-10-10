@@ -10,6 +10,9 @@ textarea {
 :root {
     --bs-success-bg-subtle: #E2EED8;
     --bs-danger-bg-subtle: #EFDFDF;
+    --bs-secondary-border-subtle: #95989A;
+    --bs-success-border-subtle: #D5E6C7;
+    --bs-danger-border-subtle: #E7CECD;
     --bs-success-rgb: 92, 184, 92;
     --bs-danger-rgb: 217, 83, 79;
     --bs-primary-rgb: 28, 124, 213;
@@ -49,7 +52,7 @@ textarea {
 }
 
 @media (min-width: 992px) {
-    section.films > .card h2 {
+    section.films > .container > .row.row-gap-4 > .col-md-6.col-lg-4.d-lg-flex.align-items-lg-stretch > .card.rounded-1 >.card-body > h2.card-title.fw-normal.pb-2 {
         padding: 0 !important;
     }
 
